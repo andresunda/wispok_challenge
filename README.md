@@ -5,3 +5,11 @@ El objetivo de este ejercicio es evaluar tus habilidades prácticas en desarroll
 
 ## Instrucciones para correr el proyecto
 
+📥 1. Clonar el repositorio
+-git clone https://github.com/andresunda/wispok_challenge
+
+📦 2. Instalar dependencias
+En tu terminal corre npm install
+
+🚀 3. Correr el proyecto en modo desarrollo
+npm run dev
