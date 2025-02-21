@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # wispok_challenge
 A front end challenge of wispok
 =======
@@ -41,3 +42,7 @@ Te sugerimos trabajar con calma y comunicar tu proceso de pensamiento mientras t
 
 Si necesitas personalizarlo más o agregar algo adicional, ¡házmelo saber! 😊
 >>>>>>> 8175ade (Firts commit)
+=======
+# wispok_challenge
+A front end challenge of wispok
+>>>>>>> 5ea91bbc405509af04bed797a394eca0f5c45894
