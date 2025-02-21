@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  border-radius: 20px;
+  padding: 24px;
+  width: 352px;
+
+  background-color: #f4f4f5;
+
+  @media (max-width: 1024px) {
+    gap: 24px;
+    width: 272px;
+    padding: 16px;
+  }
+}
+
+.container__image {
+  border-radius: 18px;
+  width: 304px;
+  height: 304px;
+
+  @media (max-width: 1024px) {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+.container__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  & h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+
+    @media (max-width: 1024px) {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+}
+
+.container__location {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  & span {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+.container__buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.button__details {
+  border: 2px solid #5556ff;
+
+  background-color: #dde5ff;
+
+  color: #5556ff;
+
+  &:hover {
+    border: 2px solid #3929d9;
+    background-color: #c2ceff;
+    color: #3929d9;
+  }
+
+  @media (max-width: 1024px) {
+    height: 32px;
+  }
+}
+
+.button__delete {
+  padding: 0;
+  width: 44px;
+  height: 44px;
+
+  background-color: #dde5ff;
+
+  &:hover {
+    background-color: #c2ceff;
+  }
+
+  @media (max-width: 1024px) {
+    width: 32px;
+    height: 32px;
+  }
+}

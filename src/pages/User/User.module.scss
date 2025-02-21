@@ -1,0 +1,40 @@
+.section__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 15px;
+  gap: 50px;
+  width: 100%;
+}
+
+.user__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1120px;
+
+  & h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #18181b;
+  }
+
+  & span {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #52525b;
+  }
+}
+
+.container__users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1120px;
+  gap: 32px;
+}

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  gap: 32px;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  & h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.coordinates {
+  display: flex;
+  gap: 20px;
+}
+
+.button__submit__user {
+  margin-top: 12px;
+  max-width: fit-content;
+
+  &:hover {
+    background-color: #3929d9;
+  }
+}
+
+.container__img__map {
+  width: 466px;
+  height: 392px;
+  border-radius: 20px;
+}

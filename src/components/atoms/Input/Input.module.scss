@@ -1,0 +1,33 @@
+.input {
+  background-color: #f4f4f5;
+
+  border: none;
+  border-radius: 8px;
+  width: 262px;
+  height: 38px;
+  padding: 12px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #a1a1aa;
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    border-radius: 4px;
+    width: 240px;
+    height: 28px;
+    padding: 8px;
+  }
+}

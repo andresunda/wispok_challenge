@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  gap: 32px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  & h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  & h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+.confirm__delete {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.user__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.button__keep__user {
+  background-color: #dde5ff;
+  border: 2px solid #5556ff;
+  color: #5556ff;
+
+  &:hover {
+    border: 2px solid #3929d9;
+    background-color: #c2ceff;
+    color: #3929d9;
+  }
+}
+
+.button__delete__user {
+  &:hover {
+    background-color: #3929d9;
+  }
+}
